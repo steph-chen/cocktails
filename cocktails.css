@@ -1,0 +1,151 @@
+@font-face{
+    font-family: lettergothicSTD;
+    src: url(letter-gothic-std/LetterGothicStd.otf);
+}
+
+.main{
+    height: 100%; 
+    display: table;
+    padding-left: 150;
+    padding-right: 150;
+    padding-top: 100;
+}
+
+h2{
+    padding-top: 50px;
+    font-style: rgba(0,0,0,1);
+    font-family: lettergothicSTD;
+    font-size: 50px;
+}
+
+body.modal-open{
+    overflow:hidden;
+    height: auto;
+}
+
+td{
+    height: 45px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.row{
+/*    display: table-cell;*/
+    vertical-align: middle;
+    margin-left: 0;
+    margin-right: 0;
+    border-style: none;
+    border: 0;
+    width: 90%;
+    height: auto;
+    margin: 0 auto;
+}
+
+.thumbnail{
+    border: 0;
+}
+
+img{
+    width: 50%;
+    vertical-align: middle;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.hover{
+    -webkit-filter: blur(10px);
+    -webkit-transform: translated(0, 0, 0);
+  }
+  
+#testModal{
+    text-transform: uppercase;
+}  
+
+.modal-title{
+    text-transform: uppercase;
+}
+
+h1 {
+    color: #EEEEEE;
+    z-index: 1500;
+}
+
+.center-block {
+    
+    
+    vertical-align: middle;
+    display: block;
+    text-align:center; 
+    background-color: white;
+    padding: 10px;
+    border: 2px solid;
+    border-color: #D1D3D4;
+    position: relative;
+    visibility: hidden;
+    text-decoration: none;
+    
+}
+
+/*card*/
+
+
+
+.modal-content{
+    width: 60%;
+    height: auto;
+    margin: 0 auto;
+    font-family: lettergothicSTD;
+    border-style: none;
+    border: 0;
+}
+
+.modal-title {
+    padding-top: 35px;
+    font-size: 30px;
+}
+
+.modal-body{
+    font-size: 12px;
+    border-style: none;
+    border: 0;
+}
+
+.modal-header{
+    border-style: none;
+    border: 0;
+}
+
+/*loader*/
+#loader{
+    position:fixed;
+    z-index: 100;
+    top:0;
+    width:100%;
+    background-color:white;
+    height:100%;
+    text-align:center;
+    margin:0;
+    padding:0;
+    overflow:hidden;
+    
+}
+#loader h2{
+    font-size: 36px;
+    letter-spacing: 20px;
+    color: white;
+    z-index: 101;
+    top: 40%;
+    background: rgba(0,0,0,0);
+    position: absolute;
+    width: 100%;
+    text-align: center;
+}
+
+#loader img{
+    -webkit-filter: brightness(50%);
+    display: block;
+    width: 100%;
+    position: relative;
+}

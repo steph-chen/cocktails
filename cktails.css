@@ -1,0 +1,18 @@
+.boxed {
+    text-align:center; 
+    width: 150px;
+    height: 50px;
+    padding: 5px;
+    border: 3px solid;
+    border-color: #D1D3D4;
+    margin: 25px;
+    display: table-cell;
+    vertical-align: middle;
+
+}
+
+
+@font-face {
+    font-family: letterGothicSTD;
+    src: url(../letter-gothic-std/lettergothicstd.otf);
+}
